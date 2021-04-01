@@ -239,13 +239,13 @@ key 变成了 'b'
 
 Call Stack 目前的状态是
 
-[
-//顶部
-get, // 这是去查找 key 为 b 的 get
-get a, // 这里的是 target 中的 get a
-get, // 这里是 return Reflect 中的 get 方法
-...
-]
+- [
+- //顶部
+- get, // 这是去查找 key 为 b 的 get
+- get a, // 这里的是 target 中的 get a
+- get, // 这里是 return Reflect 中的 get 方法
+- ...
+- ]
 
 所以这边是可以获取到值为 3 的
 
